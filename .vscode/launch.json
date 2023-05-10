@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "launch-stg-debug-layout",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "debug",
+      "args": [
+        "DEBUG_MODE=DEBUG_LAYOUT",
+      ]
+    },
+    {
+      "name": "launch-stg-debug",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "flutterMode": "debug",
+      "args": [
+        "DEBUG_MODE=DEBUG_ONLY",
+      ]
+    },
+  ]
+}
